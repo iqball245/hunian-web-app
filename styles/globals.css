@@ -3,8 +3,23 @@
 @tailwind utilities;
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #161516;
+  --foreground: #ffffff;
+}
+
+.bg-gradient-custom {
+  @apply bg-gradient-to-r from-[#FFD88C]  to-[#E45826];
+}
+
+.px-custom {
+  @apply px-[120px];
+}
+
+.primary {
+  @apply bg-primary;
+}
+.black {
+  @apply text-black_custom;
 }
 
 @media (prefers-color-scheme: dark) {
