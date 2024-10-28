@@ -3,7 +3,9 @@ interface Props {
 }
 const ReusableButtonGradient: React.FC<Props> = ({ name }) => {
   return (
-    <button className="rounded-full mt-[24px] py-[18px] px-[24px] bg-gradient-custom text-white">
+    <button
+      className={`rounded-full mt-[24px] py-[18px] px-[24px] bg-gradient-custom text-white `}
+    >
       {name}
     </button>
   );

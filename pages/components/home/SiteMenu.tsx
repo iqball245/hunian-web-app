@@ -16,21 +16,21 @@ const SiteMenu: React.FC = () => {
           width={24}
           height={24}
           priority
-          src="icons/search.svg"
+          src="/icons/Search.svg"
           alt="search icons"
         />
         <Image
           width={24}
           height={24}
           priority
-          src="icons/cart.svg"
+          src="/icons/Cart.svg"
           alt="cart icons"
         />
         <Image
           width={24}
           height={24}
           priority
-          src="icons/profile.svg"
+          src="/icons/Profile.svg"
           alt="profile icons"
         />
       </div>
