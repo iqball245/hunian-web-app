@@ -1,4 +1,5 @@
 import ReusableButtonGradient from "../ReusableButtonGradient";
+import PropertyCardGrid from "./PropertyCardGrid";
 
 const MostViewed: React.FC = () => {
   return (
@@ -10,7 +11,7 @@ const MostViewed: React.FC = () => {
         <ReusableButtonGradient name="See More" />
       </div>
       <div className="rounded-xl relative px-custom">
-        <h1>Mega Regency</h1>
+        <PropertyCardGrid />
       </div>
     </div>
   );
