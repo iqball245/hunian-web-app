@@ -2,11 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #161516;
-  --foreground: #ffffff;
-}
-
 .bg-gradient-custom {
   @apply bg-gradient-to-r from-[#FFD88C]  to-[#E45826];
 }
@@ -18,16 +13,15 @@
 .primary {
   @apply bg-primary;
 }
-.black {
+.text-black {
   @apply text-black_custom;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+.bg-black {
+  @apply bg-[#161516];
 }
+
+
 
 body {
   color: var(--foreground);

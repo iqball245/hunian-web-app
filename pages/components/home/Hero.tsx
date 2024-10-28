@@ -3,14 +3,14 @@ import ReusableButtonGradient from "../ReusableButtonGradient";
 
 const Hero: React.FC = () => {
   return (
-    <div className="flex flex-col w-full items-center mt-[82px] px-[120px] ">
-      <div className="flex items-center justify-between max-w-full mx-auto">
-        <h1 className="leading-normal text-6xl font-bold w-[600px]">
+    <div className="flex flex-col w-full items-center px-[120px] bg-black py-[56px]">
+      <div className="flex items-center justify-between mt-[82px] max-w-full mx-auto">
+        <h1 className="leading-normal text-6xl text-white font-bold w-[600px]">
           The Best Place To Find Your Dream{" "}
           <span className="text-primary">Property</span>
         </h1>
         <div className="flex flex-col items-start w-[437px]">
-          <p className="text-[16px]">
+          <p className="text-[16px] text-white">
             We are a real estate agency that will assist you in building your
             dreams, we will also assist in making a home design that suits your
             taste

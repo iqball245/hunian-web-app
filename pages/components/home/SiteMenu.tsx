@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const SiteMenu: React.FC = () => {
   return (
-    <div className="flex justify-between items-center py-[25px] px-[120px]">
+    <div className="flex justify-between items-center py-[25px] px-[120px] bg-black">
       <h1 className="text-2xl font-bold text-white">HUNIAN.</h1>
       <ul className="cursor-pointer flex gap-x-5 text-white">
         <li className="text-white ">HOME</li>
